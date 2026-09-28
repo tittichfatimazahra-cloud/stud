@@ -46,6 +46,11 @@ plt.ylim(0, 20)
 plt.grid(axis="y", linestyle="--", alpha=0.5)
 
 plt.tight_layout()
+
+# Save the chart
+plt.savefig("images/student_performance.png", dpi=300)
+
+# Display the chart
 plt.show()
 
 # Save the results
